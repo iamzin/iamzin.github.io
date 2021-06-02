@@ -1,8 +1,8 @@
-I"�<div class="page__footer-follow">
+I"�<div class="page__footer-follow">
   <ul class="social-icons">
-    
+    <!-- 
       <li><strong>팔로우:</strong></li>
-    
+     -->
 
     
       
@@ -32,5 +32,5 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 박은진. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 zin. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 :ET

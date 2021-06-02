@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "zin log"
 title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "박은진"
-description              : "Backend | JAVA, Spring Boot, Server etc."
+name                     : "zin"
+description              : "zin's Backend Blog | JAVA, Spring Boot, Server etc."
 url                      : "https://iamzin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "iamzin/iamzin.github.io"
-teaser                   : "/assets/images/800x500.png"
+teaser                   : "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "zin log"
 breadcrumbs              : true # true, false (default)
@@ -96,9 +96,9 @@ analytics:
 # Site Author
 author:
   name             : "박은진"
-  avatar           : "/assets/images/eunzin_2021_full.jpeg"
-  bio              : "차근차근 발전하는 백엔드 개발자입니다."
-  location         : "Republic of Korea"
+  avatar           : "/assets/images/zin_2021.jpeg"
+  bio              : "Eunzin Park"
+  location         : "Seongnam, South Korea"
   email            :
   links:
     - label: "Email"
@@ -280,7 +280,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
