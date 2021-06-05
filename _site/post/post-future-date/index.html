@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Layout: Header Video | zin log</title>
-<meta name="description" content="This post should display a header with a responsive video, if the theme supports it.">
+<!-- begin _includes/seo.html --><title>Post: Future Date | zin log</title>
+<meta name="description" content="This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.">
 
 
   <meta name="author" content="박은진">
@@ -22,30 +22,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="zin log">
-<meta property="og:title" content="Layout: Header Video">
-<meta property="og:url" content="https://iamzin.github.io/layout/uncategorized/layout-header-video/">
+<meta property="og:title" content="Post: Future Date">
+<meta property="og:url" content="https://iamzin.github.io/post/post-future-date/">
 
 
-  <meta property="og:description" content="This post should display a header with a responsive video, if the theme supports it.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2017-01-23T00:00:00+09:00">
+  <meta property="og:description" content="This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="9999-12-31T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://iamzin.github.io/layout/uncategorized/layout-header-video/">
+
+<link rel="canonical" href="https://iamzin.github.io/post/post-future-date/">
 
 
 
@@ -163,23 +163,6 @@
 
     <div class="initial-content">
       
-  
-
-
-
-
-
-
-
-<!-- Courtesy of embedresponsively.com //-->
-
-  <div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/XsxDH4HcOWA" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-
-
-
-
 
 
   
@@ -202,7 +185,7 @@
       
         
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/categories/#layout" itemprop="item"><span itemprop="name">Layout</span></a>
+          <a href="/categories/#post" itemprop="item"><span itemprop="name">Post</span></a>
           <meta itemprop="position" content="2" />
         </li>
         <span class="sep">/</span>
@@ -210,17 +193,7 @@
     
       
       
-        
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/categories/#uncategorized" itemprop="item"><span itemprop="name">Uncategorized</span></a>
-          <meta itemprop="position" content="3" />
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        <li class="current">Layout: Header Video</li>
+        <li class="current">Post: Future Date</li>
       
     
   </ol>
@@ -353,15 +326,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Layout: Header Video">
-    <meta itemprop="description" content="This post should display a header with a responsive video, if the theme supports it.">
-    <meta itemprop="datePublished" content="2017-01-23T00:00:00+09:00">
+    <meta itemprop="headline" content="Post: Future Date">
+    <meta itemprop="description" content="This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.">
+    <meta itemprop="datePublished" content="9999-12-31T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Layout: Header Video
+          <h1 id="page-title" class="page__title" itemprop="headline">Post: Future Date
 </h1>
           
 
@@ -371,73 +344,7 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>This post should display a <strong>header with a responsive video</strong>, if the theme supports it.</p>
-
-<h2 id="settings">Settings</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Required</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">id</code></td>
-      <td><strong>Required</strong></td>
-      <td>ID of the video</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">provider</code></td>
-      <td><strong>Required</strong></td>
-      <td>Hosting provider of the video, either <code class="language-plaintext highlighter-rouge">youtube</code> or <code class="language-plaintext highlighter-rouge">vimeo</code></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="youtube">YouTube</h3>
-
-<p>To embed the following YouTube video at url <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=XsxDH4HcOWA</code> (long version) or <code class="language-plaintext highlighter-rouge">https://youtu.be/XsxDH4HcOWA</code> (short version) into a post or page’s main content you’d use:</p>
-
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"XsxDH4HcOWA"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"youtube"</span><span class="w"> </span><span class="p">%}</span>
-</code></pre></div></div>
-
-<!-- Courtesy of embedresponsively.com //-->
-
-<div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/XsxDH4HcOWA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-
-<p>To embed it as a video header you’d use the following YAML Front Matter</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
-  <span class="na">video</span><span class="pi">:</span>
-    <span class="na">id</span><span class="pi">:</span> <span class="s">XsxDH4HcOWA</span>
-    <span class="na">provider</span><span class="pi">:</span> <span class="s">youtube</span>
-</code></pre></div></div>
-
-<h3 id="vimeo">Vimeo</h3>
-
-<p>To embed the following Vimeo video at url <code class="language-plaintext highlighter-rouge">https://vimeo.com/212731897</code> into a post or page’s main content you’d use:</p>
-
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"212731897"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"vimeo"</span><span class="w"> </span><span class="p">%}</span>
-</code></pre></div></div>
-
-<!-- Courtesy of embedresponsively.com //-->
-
-<div class="responsive-video-container">
-    <iframe src="https://player.vimeo.com/video/212731897?dnt=true" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-
-<p>To embed it as a video header you’d use the following YAML Front Matter</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
-  <span class="na">video</span><span class="pi">:</span>
-    <span class="na">id</span><span class="pi">:</span> <span class="m">212731897</span>
-    <span class="na">provider</span><span class="pi">:</span> <span class="s">vimeo</span>
-</code></pre></div></div>
+        <p>This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the <code class="language-plaintext highlighter-rouge">--future</code> flag it should appear.</p>
 
         
       </section>
@@ -445,23 +352,6 @@
       <footer class="page__meta">
         
         
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/tags/#layout" class="page__taxonomy-item" rel="tag">layout</a><span class="sep">, </span>
-    
-      <a href="/tags/#video" class="page__taxonomy-item" rel="tag">video</a>
-    
-    </span>
-  </p>
-
-
 
 
   
@@ -473,9 +363,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#layout" class="page__taxonomy-item" rel="tag">Layout</a><span class="sep">, </span>
-    
-      <a href="/categories/#uncategorized" class="page__taxonomy-item" rel="tag">Uncategorized</a>
+      <a href="/categories/#post" class="page__taxonomy-item" rel="tag">Post</a>
     
     </span>
   </p>
@@ -483,7 +371,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2017-01-23T00:00:00+09:00">January 23, 2017</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="9999-12-31T00:00:00+09:00">December 31, 9999</time></p>
 
 
       </footer>
@@ -493,23 +381,22 @@
     <h4 class="page__share-title">공유하기</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Layout%3A+Header+Video%20https%3A%2F%2Fiamzin.github.io%2Flayout%2Funcategorized%2Flayout-header-video%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Post%3A+Future+Date%20https%3A%2F%2Fiamzin.github.io%2Fpost%2Fpost-future-date%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiamzin.github.io%2Flayout%2Funcategorized%2Flayout-header-video%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiamzin.github.io%2Fpost%2Fpost-future-date%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fiamzin.github.io%2Flayout%2Funcategorized%2Flayout-header-video%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fiamzin.github.io%2Fpost%2Fpost-future-date%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/jekyll/gemified-theme-beta/" class="pagination--pager" title="Gemified Theme – Beta Release
+      <a href="/jekyll/post-exclude-search/" class="pagination--pager" title="Exclude Post from Search Index
 ">이전</a>
     
     
-      <a href="/jekyll/post-exclude-search/" class="pagination--pager" title="Exclude Post from Search Index
-">다음</a>
+      <a href="#" class="pagination--pager disabled">다음</a>
     
   </nav>
 
@@ -523,40 +410,6 @@
     <div class="page__related">
       <h4 class="page__related-title">참고</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/500x300.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/post/post-future-date/" rel="permalink">Post: Future Date
-</a>
-      
-    </h2>
-    
-
-
-    <!--
-    devinlife comments :
-        아키이브 싱글 페이지(ex. 카테고리)에 각 포스트 제목 밑에 Updated 시간 표기
-        기존에는 read_time이 표기. read_time -> date 변경
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> </p>
-    
-    <p class="archive__item-excerpt" itemprop="description">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.
-</p>
-  </article>
-</div>
-
         
           
 
@@ -587,6 +440,40 @@
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> </p>
     
     <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/500x300.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/layout/uncategorized/layout-header-video/" rel="permalink">Layout: Header Video
+</a>
+      
+    </h2>
+    
+
+
+    <!--
+    devinlife comments :
+        아키이브 싱글 페이지(ex. 카테고리)에 각 포스트 제목 밑에 Updated 시간 표기
+        기존에는 read_time이 표기. read_time -> date 변경
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> </p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This post should display a header with a responsive video, if the theme supports it.
 </p>
   </article>
 </div>
@@ -725,8 +612,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "https://iamzin.github.io/layout/uncategorized/layout-header-video/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/layout/uncategorized/layout-header-video"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "https://iamzin.github.io/post/post-future-date/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/post/post-future-date"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');

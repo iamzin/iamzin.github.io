@@ -400,4 +400,10 @@ var store = [{
         "tags": ["video","layout"],
         "url": "/layout/uncategorized/layout-header-video/",
         "teaser": "/assets/images/500x300.png"
+      },{
+        "title": "Post: Future Date",
+        "excerpt":"This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.  ","categories": ["Post"],
+        "tags": [],
+        "url": "/post/post-future-date/",
+        "teaser": "/assets/images/500x300.png"
       }]
